@@ -2,10 +2,10 @@ SUMMARY = "pfsense preinstalled image"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384361b4de20420"
 
-SRC_URI = "file://pfsense.img"
+SRC_URI = "https://cloud.3mdeb.com/index.php/s/ZbkZQppgynMnxY3/download;unpack=yes"
 
-SRC_URI[md5sum] = "0e94eb17fd595d8f54b600e7c9ac45c0"
-SRC_URI[sha256sum] = "6fffefa0b09daea397e83f67bf730392125b720043c455597c05d3d80c2baa29"
+SRC_URI[md5sum] = "eb5a167a1c6a3f287f364b7ccfa705d7"
+SRC_URI[sha256sum] = "d36b27683e67e38d67af5904893635922e5a2f045ede7e5d3ea534e11b9576b1"
 
 do_install() {
     install -d ${D}${datadir}/xen-images
