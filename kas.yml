@@ -9,7 +9,7 @@ target:
 repos:
   meta-pcengines:
     url: https://github.com/3mdeb/meta-pcengines
-    refspec: 4160308aaca748d64de142cfe5d4b8cc39a81063
+    refspec: 8cc1a587926acedd0c14ac9167c6eb996616f504
   
 
   poky:
@@ -45,7 +45,7 @@ repos:
   
   meta-trenchboot:
     url: https://github.com/3mdeb/meta-trenchboot
-    refspec: 6d21f26297bcf1b48c58e91879a24562dfb4de32
+    refspec: 46c44dbf563c621eb3b90dffb1dff0790434cc2a
   
   meta-trenchboot-demo:
 
