@@ -14,7 +14,7 @@ xl create /home/root/hvm-conf/ndvm-2.cfg
 echo "Creating 3rd NDVM..."
 xl create /home/root/hvm-conf/ndvm-3.cfg
 
-sleep 90
+sleep 30
 
 echo "Creating Firewall VM..."
 xl create /home/root/hvm-conf/pfsense.cfg
