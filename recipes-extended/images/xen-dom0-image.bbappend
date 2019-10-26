@@ -2,6 +2,8 @@ IMAGE_INSTALL_append = " \
   pfsense-preinstalled \
   hvm-create \
   systemd \
+  xen-xentrace \
+  rc-local \
   "
 
 ROOTFS_POSTPROCESS_COMMAND += "rootfs_install_ndvm_image; "
