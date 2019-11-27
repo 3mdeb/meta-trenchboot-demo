@@ -31,6 +31,19 @@ Then flash the drive with bmap-tools:
 bmaptool copy --bmap xen-dom0-image-pcengines-apu2.wic.bmap xen-dom0-image-pcengines-apu2.wic.gz /dev/<dev>
 ```
 
+Example output
+
+```bash
+# bmaptool copy --bmap xen-dom0-image-pcengines-apu2.wic.bmap xen-dom0-image-pcengines-apu2.wic.gz /dev/sda
+bmaptool: info: block map format version 2.0
+bmaptool: info: 3163136 blocks of size 4096 (12.1 GiB), mapped 587526 blocks (2.2 GiB or 18.6%)
+bmaptool: info: copying image 'xen-dom0-image-pcengines-apu2.wic.gz' to block device '/dev/sda' using bmap file 'xen-dom0-image-pcengines-apu2.wic.bmap'
+bmaptool: info: 97% copied
+bmaptool: info: 100% copied
+bmaptool: info: synchronizing '/dev/sda'
+bmaptool: info: copying time: 5m 30.3s, copying speed 6.9 MiB/sec
+```
+
 ## Technical showcase
 
 The demo has been shown at the [ELCE2019](https://3mdeb.com/news/events/#Embedded-Linux-Conference).
