@@ -10,14 +10,16 @@ Meta layer for Trenchboot related demos
 
 ## Building
 
-```bash
+Make sure to adjust `~/ssh-keys` according to your configuration:
+
+```
 SHELL=bash kas-docker --ssh-dir ~/ssh-keys build meta-trenchboot-demo/kas.yml
 ```
 
-Change a directory to build/tmp/deploy/images/pcengines-apu2. Find the
+Change a directory to `build/tmp/deploy/images/pcengines-apu2`. Find the
 xen-dom0-image-pcengines-apu2 files with extensions wic.gz and wic.bmap.
 Copy them to the apu platform (for example through ssh or memory stick).
-At the platform, check directory (`/dev/<dev-dir>` ) of the drive to be flashed:
+At the platform, check device (`/dev/<dev>` ) of the drive to be flashed:
 
 ```bash
 fdisk -l
@@ -26,7 +28,7 @@ fdisk -l
 Then flash the drive with bmap-tools:
 
 ```bash
-bmaptool copy --bmap xen-dom0-image-pcengines-apu2.wic.bmap xen-dom0-image-pcengines-apu2.wic.gz /dev/<dev-dir>
+bmaptool copy --bmap xen-dom0-image-pcengines-apu2.wic.bmap xen-dom0-image-pcengines-apu2.wic.gz /dev/<dev>
 ```
 
 ## Technical showcase
