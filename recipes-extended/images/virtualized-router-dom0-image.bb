@@ -16,9 +16,13 @@ IMAGE_INSTALL_append = " \
   xen-xentrace \
   hostapd \
   iw \
+  crda \
   flashrom \
   pciutils \
   usbutils \
+  linux-firmware-ath10k \
+  iperf3 \
+  xen-router-networkd-config \
 "
 
-# IMAGE_FSTYPES = "hddirect"
+IMAGE_FSTYPES_append = " wic.gz wic.bmap"

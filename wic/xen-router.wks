@@ -1,0 +1,9 @@
+# short-description: Virtualized router
+# long-description: Virtualized router
+
+part /boot --source bootimg-pcbios --ondisk sda --label boot --active --align 1024 --use-uuid
+part /     --source rootfs --ondisk sda --fstype=ext4 --label rootfsA --align 1024 --use-uuid
+part       --source rootfs --ondisk sda --fstype=ext4 --label rottfsB --align 1024 --use-uuid
+part /data --source rootfs --ondisk sda --fstype=ext4 --label data    --align 1024 --use-uuid
+
+bootloader --ptable mbt --timeout=0  --append="rootwait console=tty0"

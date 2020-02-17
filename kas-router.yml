@@ -25,8 +25,8 @@ repos:
       meta-python:
 
   meta-virtualization:
-    url: https://git.yoctoproject.org/git/meta-virtualization
-    refspec: 062d9f1f4faf2ca8a1fe78b7c7365e6378c15836
+    url: https://github.com/3mdeb/meta-virtualization
+    refspec: ea2976499e7c42270294a378979255e21a3e53ef
 
   meta-security:
     url: https://git.yoctoproject.org/git/meta-security
@@ -77,7 +77,7 @@ local_conf_header:
     BBFILE_PRIORITY_openembedded-layer = "4"
   xen-version: |
     PREFERRED_VERSION_xen = "4.13%"
-    WKS_FILE = "trenchboot-xen-image.wks"
+    WKS_FILE = "directdisk-xen.wks"
     IMAGE_BOOT_FILES = "bzImage xen.gz"
   remove-busybox: |
     # Replace busybox
