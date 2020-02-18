@@ -1,6 +1,6 @@
 require recipes-extended/images/xen-dom0-image.bb
 
-DESCRIPTION = "APU2 virtualized router router - Xen dom0 image"
+DESCRIPTION = "APU2 virtualized router - Xen dom0 image"
 
 IMAGE_INSTALL_append = " \
   packagegroup-core-base-utils \
@@ -25,4 +25,4 @@ IMAGE_INSTALL_append = " \
   xen-router-networkd-config \
 "
 
-IMAGE_FSTYPES_append = " wic.gz wic.bmap"
+IMAGE_FSTYPES_append = " wic.gz wic.bmap hddimg"

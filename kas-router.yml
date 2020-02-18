@@ -39,8 +39,8 @@ repos:
     refspec: 44d760413920ba440439b8bc7c2a71ca26cd7a2d
 
   meta-pcengines:
-    url: https://github.com/3mdeb/meta-pcengines
-    refspec: 1a09df72b127b5ff1a5b36d0b080988bfefff425
+    url: https://github.com/intel/intel-iot-refkit
+    refspec: c4ee98ab390b073807173584107c09f49ac1e390
 
   meta-trenchboot:
     url: https://github.com/3mdeb/meta-trenchboot
@@ -77,7 +77,7 @@ local_conf_header:
     BBFILE_PRIORITY_openembedded-layer = "4"
   xen-version: |
     PREFERRED_VERSION_xen = "4.13%"
-    WKS_FILE = "directdisk-xen.wks"
+    WKS_FILE = "trenchboot-xen-image.wks"
     IMAGE_BOOT_FILES = "bzImage xen.gz"
   remove-busybox: |
     # Replace busybox

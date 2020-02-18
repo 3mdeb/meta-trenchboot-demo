@@ -26,7 +26,7 @@ repos:
 
   meta-virtualization:
     url: https://git.yoctoproject.org/git/meta-virtualization
-    refspec: 062d9f1f4faf2ca8a1fe78b7c7365e6378c15836
+    refspec: 3ab5647d7cfa9d46a155be80934e0bc8a44dbf4b
 
   meta-security:
     url: https://git.yoctoproject.org/git/meta-security
@@ -37,7 +37,7 @@ repos:
   meta-selinux:
     url: https://git.yoctoproject.org/git/meta-selinux
     refspec: 44d760413920ba440439b8bc7c2a71ca26cd7a2d
-    
+
   meta-pcengines:
     url: https://github.com/3mdeb/meta-pcengines
     refspec: c4ee98ab390b073807173584107c09f49ac1e390
@@ -45,7 +45,7 @@ repos:
   meta-trenchboot:
     url: https://github.com/3mdeb/meta-trenchboot
     refspec: 146306309c409e24451b6c7b9fdc0b9414aebb08
-  
+
   meta-trenchboot-demo:
 
 
