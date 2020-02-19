@@ -3,7 +3,7 @@ IMAGE_INSTALL_append = " \
   hvm-create \
   systemd \
   xen-xentrace \
-  rc-local \
+  hostapd \
   "
 
 ROOTFS_POSTPROCESS_COMMAND += "rootfs_install_ndvm_image; "

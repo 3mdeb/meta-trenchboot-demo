@@ -39,8 +39,8 @@ repos:
     refspec: 44d760413920ba440439b8bc7c2a71ca26cd7a2d
 
   meta-pcengines:
-    url: https://github.com/intel/intel-iot-refkit
-    refspec: c4ee98ab390b073807173584107c09f49ac1e390
+    url: https://github.com/3mdeb/meta-pcengines
+    refspec: 3a98068fb8c093214f6f1d02aac70d76e4d5bbbb
 
   meta-trenchboot:
     url: https://github.com/3mdeb/meta-trenchboot
