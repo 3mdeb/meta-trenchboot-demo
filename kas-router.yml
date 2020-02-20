@@ -47,8 +47,6 @@ repos:
     refspec: 146306309c409e24451b6c7b9fdc0b9414aebb08
 
   meta-trenchboot-demo:
-    url: https://github.com/3mdeb/meta-trenchboot-demo
-    refspec: 62849a572bfa87600ba5f4979fd82c1fbab09d04
 
 bblayers_conf_header:
   standard: |
