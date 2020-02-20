@@ -46,6 +46,10 @@ repos:
     url: https://github.com/3mdeb/meta-trenchboot
     refspec: 146306309c409e24451b6c7b9fdc0b9414aebb08
 
+  meta-openwrt:
+    url: https://github.com/kraj/meta-openwrt
+    refspec: c7c590f45f7625a4c4e9e1555c220a1043e30f60
+
   meta-trenchboot-demo:
 
 bblayers_conf_header:
