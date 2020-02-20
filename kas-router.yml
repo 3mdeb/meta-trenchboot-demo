@@ -48,7 +48,7 @@ repos:
 
   meta-openwrt:
     url: https://github.com/3mdeb/meta-openwrt
-    refspec: 05d14b9ea2200afb22db7693142828a14f656747
+    refspec: dc660dcbcf61c9e2e9636955958ae0247f150093 
 
   meta-trenchboot-demo:
 
