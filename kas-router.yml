@@ -26,7 +26,7 @@ repos:
 
   meta-virtualization:
     url: https://github.com/3mdeb/meta-virtualization
-    refspec: ea2976499e7c42270294a378979255e21a3e53ef
+    refspec: 42680f1d8430c2a2cf13b9a074d85e3f38fca292
 
   meta-security:
     url: https://git.yoctoproject.org/git/meta-security
@@ -47,6 +47,8 @@ repos:
     refspec: 146306309c409e24451b6c7b9fdc0b9414aebb08
 
   meta-trenchboot-demo:
+    url: https://github.com/3mdeb/meta-trenchboot-demo
+    refspec: 62849a572bfa87600ba5f4979fd82c1fbab09d04
 
 bblayers_conf_header:
   standard: |
