@@ -47,8 +47,8 @@ repos:
     refspec: 146306309c409e24451b6c7b9fdc0b9414aebb08
 
   meta-openwrt:
-    url: https://github.com/kraj/meta-openwrt
-    refspec: c7c590f45f7625a4c4e9e1555c220a1043e30f60
+    url: https://github.com/3mdeb/meta-openwrt
+    refspec: 05d14b9ea2200afb22db7693142828a14f656747
 
   meta-trenchboot-demo:
 
