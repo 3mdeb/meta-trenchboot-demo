@@ -23,6 +23,10 @@ IMAGE_INSTALL_append = " \
   linux-firmware-ath10k \
   iperf3 \
   xen-router-networkd-config \
+  create-ap \
+  dnsmasq \
+  iptables \
+  opnsense \
 "
 
 IMAGE_FSTYPES_append = " wic.gz wic.bmap hddimg"
