@@ -8,6 +8,10 @@ function errorCheck {
     fi
 }
 
+
+OPNSENSE_IMG="/usr/share/xen-images/OPNsense-20.1-OpenSSL-nano-amd64.img"
+OPNSENSE_BZ2="/usr/share/xen-images/OPNsense-20.1-OpenSSL-nano-amd64.img.bz2"
+
 # Start the 2.4GHz WiFi Access Point
 echo "Starting 2.4GHz WiFi Access Point..."
 systemctl start hostapd
